@@ -1,0 +1,44 @@
+section {
+	width: 80%;
+	height: auto;
+	margin: auto;
+
+	aside {
+		float: left;
+
+		ul {
+			padding: 1%;
+			list-style-type: none;
+
+			li a {
+				text-decoration: none;
+				font-size: 1.5em;
+			}
+		}
+	}
+	article {
+		margin: 1%;
+	}
+	.btn a {
+		width: 20%;
+		border-radius: 10px;
+		background-color: #1695A3;
+		text-align: center;
+		font-size: 2em;
+		padding: 1%;
+		margin: 1%;
+		position: relative;
+		left: 40%;
+	}
+}
+#purchaseMaterials {
+	width: 100%;
+	height: auto;
+
+	td {
+		input {
+			width: 10em;
+			height: 1.5em;
+		}
+	}
+}

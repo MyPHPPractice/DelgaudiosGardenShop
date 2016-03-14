@@ -1,0 +1,230 @@
+* {
+  box-property: border-box; }
+
+body {
+  background-color: #FDF5DB; }
+
+nav {
+  width: 80%;
+  height: auto;
+  position: fixed;
+  text-align: center;
+  right: 0; }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%; }
+    nav ul li {
+      display: inline;
+      height: 100%; }
+      nav ul li a {
+        font-size: 2em;
+        font-weight: 900;
+        padding: 0 2em;
+        text-decoration: none;
+        color: #353129; }
+      nav ul li a:hover {
+        color: #C1CE96;
+        background-color: #597533;
+        border-radius: 5px; }
+      nav ul li a:active {
+        color: #597533; }
+      @media screen and (max-width: 800px) {
+        nav ul li {
+          display: block; } }
+    nav ul li:last-child {
+      border-right: none; }
+  @media screen and (max-width: 800px) {
+    nav {
+      width: 100%;
+      position: absolute; } }
+
+header {
+  width: 80%;
+  height: 18em;
+  margin: auto;
+  background: url("../img/dgBanner.png") no-repeat center bottom;
+  background-size: 100%; }
+  @media screen and (max-width: 900px) {
+    header {
+      height: 15em; } }
+  header img {
+    max-width: 100%;
+    height: auto; }
+    @media screen and (max-width: 1050px) {
+      header img {
+        display: block;
+        z-index: -1; } }
+    @media screen and (max-width: 700px) {
+      header img {
+        width: 245px;
+        margin: auto; } }
+
+#aboutSection {
+  width: 70%;
+  margin: auto;
+  padding: 10px; }
+  #aboutSection aside {
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin: 10px; }
+    #aboutSection aside img {
+      border-radius: 50%;
+      width: 100%;
+      height: auto; }
+
+#choose {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  text-align: center; }
+  #choose #homeowner {
+    width: 49%;
+    height: 300px;
+    float: left; }
+    @media screen and (max-width: 700px) {
+      #choose #homeowner {
+        width: 100%;
+        height: auto; } }
+    #choose #homeowner img {
+      width: 100%; }
+  #choose #contractor {
+    width: 49%;
+    height: auto;
+    float: left; }
+    @media screen and (max-width: 700px) {
+      #choose #contractor {
+        width: 100%;
+        height: auto; } }
+    #choose #contractor img {
+      width: 100%; }
+
+footer {
+  clear: left;
+  width: 100%; }
+  footer address {
+    text-align: center;
+    padding: 1em; }
+  footer ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; }
+  footer li {
+    display: inline; }
+    footer li a {
+      font-size: 1.5em;
+      padding: 2em;
+      text-decoration: none;
+      color: #597533;
+      font-weight: 700; }
+      @media screen and (max-width: 600px) {
+        footer li a {
+          display: block;
+          padding: 0; } }
+    footer li a:hover {
+      color: #C1CE96; }
+
+section {
+  width: 80%;
+  height: auto;
+  margin: auto; }
+  section table {
+    margin: auto;
+    font-size: 2em; }
+    @media screen and (max-width: 675px) {
+      section table {
+        font-size: 1em; } }
+    section table input {
+      width: 30em;
+      height: 3em;
+      border-radius: 10px;
+      font-size: .5em; }
+      @media screen and (max-width: 675px) {
+        section table input {
+          width: 15em;
+          height: 3em; } }
+    section table #btnContact {
+      background-color: #FDF5DB; }
+    section table #btnContact:active {
+      background-color: #C1CE96; }
+    section table textarea {
+      width: 30em;
+      height: 20em;
+      border-radius: 10px;
+      font-size: .5em; }
+      @media screen and (max-width: 675px) {
+        section table textarea {
+          width: 15em;
+          height: 10em; } }
+  section p {
+    text-align: center;
+    font-size: 1.5em; }
+    section p a {
+      text-decoration: none;
+      color: black; }
+  section h1 {
+    text-align: center; }
+
+section {
+  width: 80%;
+  height: auto;
+  margin: auto; }
+  section aside {
+    float: left; }
+    section aside ul {
+      padding: 1%;
+      list-style-type: none; }
+      section aside ul li a {
+        text-decoration: none;
+        font-size: 1.5em; }
+  section article {
+    margin: 1%; }
+  section .btn a {
+    width: 20%;
+    border-radius: 10px;
+    background-color: #1695A3;
+    text-align: center;
+    font-size: 2em;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    left: 40%; }
+
+#purchaseMaterials {
+  width: 100%;
+  height: auto; }
+  #purchaseMaterials td input {
+    width: 10em;
+    height: 1.5em; }
+
+figure {
+  float: left;
+  margin: 3%; }
+  figure img {
+    width: 100%;
+    max-width: 350px;
+    float: left;
+    padding: 1%; }
+  figure .btn a {
+    text-decoration: none; }
+
+.services {
+  width: 100%;
+  float: left; }
+  .services img {
+    float: left;
+    max-width: 400px;
+    width: 100%; }
+  .services h1 {
+    font-size: 3em;
+    text-align: right;
+    padding-right: 10%; }
+  .services .btn a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=master.css.map */

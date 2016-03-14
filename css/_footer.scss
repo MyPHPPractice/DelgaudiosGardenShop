@@ -1,0 +1,36 @@
+footer {
+	//border: 1px solid black;
+	clear: left;
+	width: 100%;
+
+	address {
+		text-align: center;
+		padding: 1em;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+	li {
+		display: inline;
+
+		a {
+			font-size: 1.5em;
+			padding: 2em;
+			text-decoration: none;
+			color: #597533;
+			font-weight: 700;
+
+			@media screen and (max-width:600px) {
+				display: block;
+				padding: 0;
+			}
+		}
+		a:hover {
+			color: #C1CE96;
+		}
+	}
+}

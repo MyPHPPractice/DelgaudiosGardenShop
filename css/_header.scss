@@ -1,0 +1,75 @@
+//Header info
+
+nav {
+	width: 80%;
+	height: auto;
+	position: fixed;
+	text-align: center;
+	right: 0;
+	//border: 1px solid black;
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		height: 100%;
+
+		li {
+			display: inline;
+			//border-right: 1px solid black;
+			height: 100%;
+
+			a {
+				font-size: 2em;
+				font-weight: 900;
+				padding: 0 2em;
+				text-decoration: none;
+				color: #353129;
+			}
+			a:hover {
+				color: #C1CE96;
+				background-color: #597533;
+				border-radius: 5px;
+			}
+			a:active {
+				color: #597533;
+			}
+			@media screen and (max-width:800px) {
+				display: block;
+			}
+		}
+		li:last-child {
+			border-right: none;
+		}
+	}
+	@media screen and (max-width:800px) {
+		width: 100%;
+		position: absolute;
+	}
+}
+header {
+	width: 80%;
+	height: 18em;
+	//border: 1px solid black;
+	margin: auto;
+	background: url("../img/dgBanner.png") no-repeat center bottom;
+	background-size: 100%;
+
+	@media screen and (max-width:900px) {
+		height: 15em;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+
+		@media screen and (max-width:1050px) {
+			display: block;
+			z-index: -1;
+		}
+		@media screen and (max-width:700px) {
+			width: 245px;
+			margin: auto;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+// cd /directory/webpage/css
+//sass --watch master.scss: master.css
+
+@import 'reset';
+@import 'header';
+@import 'landing';
+@import 'footer';
+@import 'contact';
+@import 'materials';
+@import 'portfolio';
+@import 'services';

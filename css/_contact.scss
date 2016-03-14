@@ -1,0 +1,55 @@
+section {
+	//border: 1px solid black;
+	width: 80%;
+	height: auto;
+	margin: auto;
+
+	table {
+		margin: auto;
+		font-size: 2em;
+
+		@media screen and(max-width:675px) {
+			font-size: 1em;
+		}
+		input {
+			width: 30em;
+			height: 3em;
+			border-radius: 10px;
+			font-size: .5em;
+
+			@media screen and(max-width:675px) {
+				width: 15em;
+				height: 3em;
+			}
+		}
+		#btnContact {
+			background-color: #FDF5DB;
+		}
+		#btnContact:active {
+			background-color: #C1CE96;
+		}
+		textarea {
+			width: 30em;
+			height: 20em;
+			border-radius: 10px;
+			font-size: .5em;
+
+			@media screen and(max-width:675px) {
+				width: 15em;
+				height: 10em;
+			}
+		}
+	}
+	p {
+		text-align: center;
+		font-size: 1.5em;
+
+		a {
+			text-decoration: none;
+			color: black;
+		}
+	}
+	h1 {
+		text-align: center;
+	}
+}

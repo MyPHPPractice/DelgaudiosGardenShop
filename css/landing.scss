@@ -1,0 +1,56 @@
+#aboutSection {
+	//border: 1px solid black;
+	width: 70%;
+	//height: 300px;
+	margin: auto;
+	padding: 10px;
+
+	aside {
+		//border: 1px solid black;
+		width: 30%;
+		height: 40%;
+		float: left;
+		margin: 10px;
+
+		img {
+			border-radius: 50%;
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+#choose {
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	//border: 1px solid black;
+
+	#homeowner {
+		width: 49%;
+		height: 300px;
+		//border: 1px solid black;
+		float: left;
+
+		@media screen and (max-width:700px) {
+			width: 100%;
+			height: auto;
+		}
+		img {
+			width: 100%;
+		}
+	}
+	#contractor {
+		width: 49%;
+		height: auto;
+		float: left;
+
+		@media screen and (max-width:700px) {
+			width: 100%;
+			height: auto;
+		}
+		img {
+			width: 100%;
+		}
+	}
+}
