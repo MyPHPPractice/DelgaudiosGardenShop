@@ -9,7 +9,7 @@
   <meta name="CocoaVersion" content="1347.57">
   <!-- Latest compiled and minified CSS -->
   <style type="text/css"></style>
-  <link rel="stylesheet" type="text/css" href="../css/master.css">
+  <link rel="stylesheet" type="text/css" href="css/master.css">
 </head>
 <body>
   <nav>
@@ -30,6 +30,6 @@
   </nav>
   <header id="dgBanner">
     <a href="index.php">
-      <img src="../img/dglogo.png" alt="dgBanner">
+      <img src="img/dglogo.png" alt="dgBanner">
     </a>
   </header>
