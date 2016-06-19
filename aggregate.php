@@ -1,11 +1,12 @@
 <?php
-include 'php/header.php';
+include 'header.php';
  ?>
-<section>	
-<?php include 'php/materialSide.php'; ?>
-	<h1>Aggregate</h1>
+<section class="materialList">	
+<?php include 'materialSide.php'; ?>
+	
 	<article>
-		Aggregate
+	<h1>Aggregate</h1>
+		Stone
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -17,4 +18,4 @@ include 'php/header.php';
 		<a href="purchase.php">Pricing</a>
 	</div>
 </section>
-<?php include 'php/footer.php'; ?>
+<?php include 'footer.php'; ?>

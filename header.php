@@ -15,16 +15,16 @@
   <nav>
     <ul>
       <li>
-        <a href="../materials.php">Materials</a>
+        <a href="materials.php">Materials</a>
       </li>
       <li>
-        <a href="../contact.php">Contact</a>
+        <a href="contact.php">Contact</a>
       </li>
       <li>
-        <a href="../portfolio.php">Portfolio</a>
+        <a href="portfolio.php">Portfolio</a>
       </li>
       <li>
-        <a href="../services.php">Services</a>
+        <a href="services.php">Services</a>
       </li>
     </ul>
   </nav>

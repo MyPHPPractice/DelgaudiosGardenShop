@@ -1,39 +1,43 @@
-<section id="aboutSection">
-    <aside>
-      <img src="img/paul.png">
-    </aside>
-    <article>
-      <h2>About Us</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </article>
-  </section>
+<section class="jumbotron">
+  <img src="img/header.jpg">
+</section>
 
-  <section id="choose">
-    <aside id="homeowner">
-      <h2>Portfolio</h2>
-      <a href="portfolio.php">
-        <img src="img/patio.jpg" id="imgHomeowner">
-      </a>
-    </aside>
-    <aside id="contractor">
-      <h2>Materials</h2>
-      <a href="materials.php">
-        <img src="img/tree.jpg" id="imgContractor">
-      </a>
-    </aside>
-  </section>
+<section id="secondaryNav">
+
+  <h2>Four Generations Of Family Landscaping Experience, And The Tools To Tackle Any Job, Make Delgaudios The Right Choice For Your Next Landscaping Project</h2>
+
+  <h2>Whether Looking For Regular Maintenance, Or Building Your Dream Backyard, You Can Rest Easy Knowing Delgaudios Will Do It Right.</h2>
+
+  <a href="maintenance.php">
+    <figure>
+      <img src="img/maintenanceBut.jpg">
+      <figcaption>
+        Maintenance
+      </figcaption>
+    </figure>
+  </a>
+  <a href="portfolio.php">
+    <figure>
+      <img src="img/brickpatio.jpg">
+      <figcaption>
+        Hardscape and Stonework
+      </figcaption>
+    </figure>
+  </a>
+  <a href="">
+    <figure>
+      <img src="img/patio.jpg">
+      <figcaption>
+        Design and Installation
+      </figcaption>
+    </figure>
+  </a>
+  <a href="garden.php">
+    <figure id="shopNursery">
+      <img src="img/tree.jpg">
+      <figcaption>
+        Garden Shop and Nursery
+      </figcaption>
+    </figure>
+  </a>
+</section>

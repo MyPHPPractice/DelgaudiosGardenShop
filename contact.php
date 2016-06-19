@@ -1,5 +1,5 @@
 <?php 
-include 'php/header.php';
+include 'header.php';
  ?>
 <section>
 	<form method="post" action="submission.php">
@@ -43,5 +43,5 @@ include 'php/header.php';
 </section>
 
  <?php 
-include 'php/footer.php';
+include 'footer.php';
  ?>
