@@ -1,26 +1,38 @@
 //resize font on mobile to align with pictures
 
 .thumbnail {
-	width: 20%;
+	width: 25%;
 	height: auto;
 	float: left;
 	clear: left;
-}
-.thumbnail:hover {
-	width: 26%;
-	box-shadow: 10px 10px 8px #505354;
-}
-#view {
-	width: 100%;
-	max-width: 800px;
-	height: 100%;
-	margin: 0 5% 5% 15%;
-	background-repeat: no-repeat;
-	position: fixed;
-	top: 15%;
-	left: 20%;
 
 	@media screen and (max-width:1000px) {
-		width: 300px;
+		width: 100%;
+		margin: 3% 0;
+	}
+}
+.thumbnail:hover {
+	width: 30%;
+	box-shadow: 10px 10px 8px #505354;
+
+	@media screen and (max-width:1000px) {
+		width: 95%;
+	}
+}
+.view {
+	width: 100%;
+	max-width: 700px;
+	height: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: fixed;
+	top: 10%;
+	left: 35%;
+	// bottom: 20px;
+	//border: 1px solid black;
+
+	@media screen and (max-width:1000px) {
+		display: hidden;
 	}
 }
