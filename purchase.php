@@ -15,10 +15,10 @@ include 'header.php';
 	<table id="purchaseMaterials">
 		<tr>
 			<td>
-				Product
+				<h1>Product</h1>
 			</td>
 			<td>
-				Price
+				<h1>Price</h1>
 			</td>
 		</tr>
 		<?php foreach ($products as $product) { ?>
@@ -28,6 +28,7 @@ include 'header.php';
 		</tr>
 		<?php }; ?>
 	</table>
+	<p>Free delivery on orders over five yards</p>
 </section>
  <?php 
 include 'footer.php';

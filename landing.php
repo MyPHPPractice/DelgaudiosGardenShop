@@ -10,7 +10,7 @@
 
   <a href="maintenance.php">
     <figure>
-      <img src="img/maintenanceBut.jpg">
+      <img src="img/maintenanceBut2.jpg">
       <figcaption>
         Maintenance
       </figcaption>
@@ -26,7 +26,7 @@
   </a>
   <a href="">
     <figure>
-      <img src="img/patio.jpg">
+      <img src="img/regBlueStonePatio2.jpg">
       <figcaption>
         Design and Installation
       </figcaption>
@@ -34,7 +34,7 @@
   </a>
   <a href="garden.php">
     <figure id="shopNursery">
-      <img src="img/tree.jpg">
+      <img src="img/tree2.jpg">
       <figcaption>
         Garden Shop and Nursery
       </figcaption>

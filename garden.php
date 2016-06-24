@@ -5,14 +5,12 @@ include 'header.php';
 <?php include 'materialSide.php'; ?>
 	
 	<article>
-	<h1>Garden</h1>
-		Garden
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<h1>Garden and Landscape Supply</h1>
+	<p>Screened Topsoil</p>
+		<img src="img/soil.jpg" alt="Screened Topsoil">
+	<p>Mulch</p>
+		<img src="img/mulch.jpg" alt="mulch">
+		
 	</article>
 	<div class="btn">
 		<a href="purchase.php">Pricing</a>

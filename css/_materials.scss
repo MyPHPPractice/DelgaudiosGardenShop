@@ -15,7 +15,11 @@ section.materialList {
 	}
 	aside {
 		float: left;
+		padding-bottom: 105%;
 
+		@media screen and (max-width:650px) {
+			padding-bottom: 0%;
+		}
 		ul {
 			padding: 1%;
 			list-style-type: none;
@@ -32,12 +36,16 @@ section.materialList {
 	}
 	article {
 		margin: 0 1% 4% 1%;
+		//float: left;
 
 		@media screen and (max-width:650px) {
 			clear: left;
 		}
 		h1 {
 			font-size: 2em;
+		}
+		img {
+			width: 40%;
 		}
 	}
 	.btn a {

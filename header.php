@@ -10,6 +10,8 @@
   <!-- Latest compiled and minified CSS -->
   <style type="text/css"></style>
   <link rel="stylesheet" type="text/css" href="css/master.css">
+
+  <link rel="icon" type="favicon.ico" href="img/favicon.ico">
 </head>
 <body>
   <nav>

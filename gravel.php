@@ -4,13 +4,14 @@ include 'header.php';
 <section class="materialList">	
 <?php include 'materialSide.php'; ?>
 	<article>
-		<h1>Gravel</h1>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<h1>Decorative Stone and Gravel</h1>
+		<p>Crushed Stone</p>
+		<img src="img/gravel.jpg" alt="crushed stone">
+		<p>Pea Gravel</p>
+		<img src="img/peaGravel.jpg" alt="pea gravel">
+		<p>River Stone - All Sizes</p>
+		<img src="img/riverGravel.jpg" alt="River Stone">
+		
 	</article>
 	<div class="btn">
 		<a href="purchase.php">Pricing</a>

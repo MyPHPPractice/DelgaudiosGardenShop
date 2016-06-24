@@ -3,20 +3,22 @@ include 'header.php';
  ?>
 <section id="hardscape">
 
-	<figure>
+	<figure id="brickPortfolio">
 		<img src="img/brickpatio.jpg" alt="brick patio">
 		<figcaption>
-			<div class="btn">
-				<a href="contact.php">Get A Quote!</a>
-			</div>
+			<div class="view">
+<!-- 				<a href="contact.php">Get A Quote!</a>
+ -->		</div>
 		</figcaption>
 	</figure>
-	<p class="aside">Beautiful brick and paver patios and walkways!</p>
+	<p class="aside">
+	Beautiful brick and paver patios and walkways!
+	</p>
 
-	<figure>
+	<figure id="stonePortfolio">
 		<img src="img/stonesteps.jpg" alt="stone steps">
 		<figcaption>
-			<div class="btn">
+			<div class="view">
 				<a href="contact.php">Get A Quote!</a>
 			</div>
 		</figcaption>
@@ -26,7 +28,7 @@ include 'header.php';
 	<figure>
 		<img src="img/brickpatio.jpg" alt="">
 		<figcaption>
-			<div class="btn">
+			<div class="view" id="waterPortfolio">
 				<a href="contact.php">Get A Quote!</a>
 			</div>
 		</figcaption>
@@ -36,32 +38,13 @@ include 'header.php';
 	<figure>
 		<img src="img/stonesteps.jpg" alt="">
 		<figcaption>
-			<div class="btn">
+			<div class="view">
 				<a href="contact.php">Get A Quote!</a>
 			</div>
 		</figcaption>
 	</figure>
-	<p class="aside"></p>
+	<p class="aside">Landscape Design and Installation</p>
 
-	<figure>
-		<img src="img/brickpatio.jpg" alt="">
-		<figcaption>
-			<div class="btn">
-				<a href="contact.php">Get A Quote!</a>
-			</div>
-		</figcaption>
-	</figure>
-	<p class="aside"></p>
-
-	<figure>
-		<img src="img/stonesteps.jpg" alt="">
-		<figcaption>
-			<div class="btn">
-				<a href="contact.php">Get A Quote!</a>
-			</div>
-		</figcaption>
-	</figure>
-	<p class="aside"></p>
 </section>
  <?php 
 include 'footer.php';

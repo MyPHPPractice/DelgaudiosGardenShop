@@ -3,9 +3,6 @@
 		
 		<ul>
 			<li>
-				<a href="mulch.php">Mulch</a>
-			</li>
-			<li>
 				<a href="gravel.php">Decorative Stone and Gravel</a>
 			</li>
 			<li>

@@ -23,7 +23,7 @@
 	}
 	p.aside {
 		font-size: 2.5em;
-		float: right;
+		float: left;
 		width: 60%;
 		clear: right;
 		padding-top: 5%;
@@ -44,6 +44,9 @@
 			padding: 0;
 			font-size: .8em;
 		}
+		img {
+			max-width: 50%;
+		}
 	}
 	figcaption {
 		position: absolute;
@@ -61,8 +64,10 @@
 		-o-transition: all 0.6s ease;
 		border-radius: 10px;
 
-		.btn {
+		.view {
 			margin: auto;
+			width: 25%;
+			height: 10%;
 
 			:hover {
 				color: white;

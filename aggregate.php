@@ -6,13 +6,12 @@ include 'header.php';
 	
 	<article>
 	<h1>Aggregate</h1>
-		Stone
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p>Stone Dust</p>
+		<img src="img/dust.jpg" alt="Stone Dust">
+		<p>Sand</p>
+		<img src="img/sand.jpg" alt="Mason Sand">
+		<p>QP Road Stone</p>
+		<img src="img/QP.jpg" alt="Road Stone">
 	</article>
 	<div class="btn">
 		<a href="purchase.php">Pricing</a>
