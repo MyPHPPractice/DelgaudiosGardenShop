@@ -1,81 +1,26 @@
 //resize font on mobile to align with pictures
-#hardscape {
-	figure {
-		margin: 3%;
-		display: block;
-		position: relative;
-		overflow: hidden;
-		max-width: 30%;
-		float: left;
-		clear: left;
 
-		img {
-			width: 100%;
-			padding: 1%;
-		}
-		.btn a {
-			text-decoration: none;
-			left: 0;
-			margin: auto;
-			font-size: 1.4em;
-			padding: 0 1%;
-		}
-	}
-	p.aside {
-		font-size: 2.5em;
-		float: left;
-		width: 60%;
-		clear: right;
-		padding-top: 5%;
+.thumbnail {
+	width: 20%;
+	height: auto;
+	float: left;
+	clear: left;
+}
+.thumbnail:hover {
+	width: 26%;
+	box-shadow: 10px 10px 8px #505354;
+}
+#view {
+	width: 100%;
+	max-width: 800px;
+	height: 100%;
+	margin: 0 5% 5% 15%;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 15%;
+	left: 20%;
 
-		@media screen and (max-width:1200px) {
-			padding-top: 4%;
-			font-size: 2em;
-		}
-		@media screen and (max-width:800px) {
-			font-size: 1.5em;
-			padding-top: 2%;
-		}
-		@media screen and (max-width:550px) {
-			font-size: 1.2em;
-			padding-top: 1%;
-		}
-		@media screen and (max-width:450px) {
-			padding: 0;
-			font-size: .8em;
-		}
-		img {
-			max-width: 50%;
-		}
-	}
-	figcaption {
-		position: absolute;
-		background: rgba(102, 102, 102, 0.55);
-		color: white;
-		padding: 10% 20%;
-		opacity: 0;
-		bottom: -20%;
-		left: 5%;
-		right: 5%;
-		font-size: 1.2em;
-		text-align: center;
-		-webkit-transition: all 0.6s ease;
-		-moz-transition: all 0.6s ease;
-		-o-transition: all 0.6s ease;
-		border-radius: 10px;
-
-		.view {
-			margin: auto;
-			width: 25%;
-			height: 10%;
-
-			:hover {
-				color: white;
-			}
-		}
-	}
-	figure:hover figcaption {
-		opacity: 1;
-		bottom: 0;
+	@media screen and (max-width:1000px) {
+		width: 300px;
 	}
 }

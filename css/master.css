@@ -243,6 +243,29 @@ table {
   text-align: center;
   font-size: 1.5em; }
 
+.thumbnail {
+  width: 20%;
+  height: auto;
+  float: left;
+  clear: left; }
+
+.thumbnail:hover {
+  width: 26%;
+  box-shadow: 10px 10px 8px #505354; }
+
+#view {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  margin: 0 5% 5% 15%;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 15%;
+  left: 20%; }
+  @media screen and (max-width: 1000px) {
+    #view {
+      width: 300px; } }
+
 #hardscape figure {
   margin: 3%;
   display: block;
