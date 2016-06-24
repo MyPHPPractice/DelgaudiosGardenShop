@@ -1,11 +1,11 @@
 <?php
-include 'php/header.php';
+include 'header.php';
  ?>
-<section>
+<section class="materialList">
 <?php 
-include 'php/materialSide.php';
+include 'materialSide.php';
 ?>
-	<h1>Materials</h1>
+	
 	<article>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -19,5 +19,5 @@ include 'php/materialSide.php';
 	</div>
 </section>
  <?php 
- include 'php/footer.php';
+ include 'footer.php';
   ?>

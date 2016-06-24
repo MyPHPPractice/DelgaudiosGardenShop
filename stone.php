@@ -1,20 +1,24 @@
 <?php
-include 'php/header.php';
+include 'header.php';
  ?>
-<section>	
-<?php include 'php/materialSide.php'; ?>
-	<h1>Stone</h1>
+<section class="materialList">	
+<?php include 'materialSide.php'; ?>
 	<article>
-		Stone
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<h1>Blue Stone, Laurel Mountain, and Lilac Field Stone</h1>
+		<p>Tumbled Stone</p>
+		<img src="img/blueStonePalletTumbled.jpg" alt="Tumbled Blue Stone">
+		<p>Wall Stone</p>
+		<img src="img/blueStonePallet2.jpg" alt="Wall Blue Stone">
+		<p>Steps</p>
+		<img src="img/blueStoneStepPallet.jpg" alt="Bluestone Steps">
+		<p>Patio Stone</p>
+		<img src="img/laurelMtUprightPallet.jpg" alt="Patio Stone">
+		<h1>Brick and Pavers</h1>
+		<img src="img/brickPallet.jpg" alt="Brick Pallet">
+		
 	</article>
 	<div class="btn">
 		<a href="purchase.php">Pricing</a>
 	</div>
 </section>
-<?php include 'php/footer.php'; ?>
+<?php include 'footer.php'; ?>

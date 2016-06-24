@@ -9,27 +9,29 @@
   <meta name="CocoaVersion" content="1347.57">
   <!-- Latest compiled and minified CSS -->
   <style type="text/css"></style>
-  <link rel="stylesheet" type="text/css" href="../css/master.css">
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+
+  <link rel="icon" type="favicon.ico" href="img/favicon.ico">
 </head>
 <body>
   <nav>
     <ul>
       <li>
-        <a href="../materials.php">Materials</a>
+        <a href="materials.php">Materials</a>
       </li>
       <li>
-        <a href="../contact.php">Contact</a>
+        <a href="contact.php">Contact</a>
       </li>
       <li>
-        <a href="../portfolio.php">Portfolio</a>
+        <a href="portfolio.php">Portfolio</a>
       </li>
       <li>
-        <a href="../services.php">Services</a>
+        <a href="services.php">Services</a>
       </li>
     </ul>
   </nav>
   <header id="dgBanner">
     <a href="index.php">
-      <img src="../img/dglogo.png" alt="dgBanner">
+      <img src="img/dglogo.png" alt="dgBanner">
     </a>
   </header>
